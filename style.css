@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+.calculator {
+  background: #171717;
+  padding: 26px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+}
+
+input {
+  width: 330px;
+  padding: 25px;
+  margin: 10px;
+  background-color: lightgreen;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-family: 'DS-Digital', sans-serif;
+  font-size: 45px;
+  text-align: right;
+  color: #000000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+  color: #000000;
+}
+
+button  {
+  border: none;
+  outline: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #303136;
+  font-size: 21px;
+  font-weight: 600;
+  color:  #fff;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px #999;
+  transition: background-color 1s;
+}
+
+button:active {
+  background-color: #fff;
+  color: #000000;
+  
+}
+  
+.hasil {
+  width: 144px;
+  color: white;
+  background: orange;
+  font-weight: 400;
+  box-shadow: 0 2px 4px #999;
+}
+
+.operator {
+  color: white;
+  background: blueviolet;
+  box-shadow: 0 2px 4px #999;
+}
